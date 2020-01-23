@@ -2863,7 +2863,7 @@ void rd_kafka_conf_properties_show (FILE *fp) {
 		"----------------------------------------";
 
 	for (prop0 = rd_kafka_properties; prop0->name ; prop0++) {
-		const char *typeinfo = "";
+		const char *typeinfo = "-";
                 const char *importance;
                 const struct rd_kafka_property *prop = prop0;
 
